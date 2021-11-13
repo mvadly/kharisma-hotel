@@ -1,0 +1,12 @@
+<?php 
+
+$bebas = array('Afganistan','Afrika Selatan','Afrika Tengah','Albania','Aljazair','Amerika Serikat','Andorra','Angola','Antigua dan Barbuda','Arab Saudi','Argentina','Armenia','Australia','Austria','Azerbaijan','Bahama','Bahrain','Bangladesh','Barbados','Belanda','Belarus','Belgia','Belize','Benin','Bhutan','Bolivia','Bosnia dan Herzegovina','Botswana','Brasil','Britania Raya','Brunei Darussalam','Bulgaria','Burkina Faso','Burundi','Ceko','Chad','Chili','China','Denmark','Djibouti','Dominika','Ekuador','El Salvador','Eritrea','Estonia','Ethiopia','Fiji','Filipina','Finlandia','Gabon','Gambia','Georgia','Ghana','Grenada','Guatemala','Guinea','Guinea Bissau','Guinea Khatulistiwa','Guyana','Haiti','Honduras','Hongaria','India','Indonesia','Irak','Iran','Irlandia','Islandia','Israel','Italia','Jamaika','Jepang','Jerman','Kamboja','Kamerun','Kanada','Kazakhstan','Kenya','Kirgizstan','Kiribati','Kolombia','Komoro','Republik Kongo','Korea Selatan','Korea Utara','Kosta Rika','Kroasia','Kuba','Kuwait','Laos','Latvia','Lebanon','Lesotho','Liberia','Libya','Liechtenstein','Lituania','Luksemburg','Madagaskar','Makedonia','Maladewa','Malawi','Malaysia','Mali','Malta','Maroko','Marshall','Mauritania','Mauritius','Meksiko','Mesir','Mikronesia','Moldova','Monako','Mongolia','Montenegro','Mozambik','Myanmar','Namibia','Nauru','Nepal','Niger','Nigeria','Nikaragua','Norwegia','Oman','Pakistan','Palau','Panama','Pantai Gading','Papua Nugini','Paraguay','Perancis','Peru','Polandia','Portugal','Qatar','Republik Demokratik Kongo','Republik Dominika','Rumania','Rusia','Rwanda','Saint Kitts and Nevis','Saint Lucia','Saint Vincent and the Grenadines','Samoa','San Marino','Sao Tome and Principe','Selandia Baru','Senegal','Serbia','Seychelles','Sierra Leone','Singapura','Siprus','Slovenia','Slowakia','Solomon','Somalia','Spanyol','Sri Lanka','Sudan','Sudan Selatan','Suriah','Suriname','Swaziland','Swedia','Swiss','Tajikistan','Tanjung Verde','Tanzania','Thailand','Timor Leste','Togo','Tonga','Trinidad and Tobago','Tunisia','Turki','Turkmenistan','Tuvalu','Uganda','Ukraina','Uni Emirat Arab','Uruguay','Uzbekistan','Vanuatu','Venezuela','Vietnam','Yaman','Yordania','Yunani','Zambia','Zimbabwe');
+sort($bebas);
+?>
+<select name="warganegara" class="form-control" required>
+    
+    <option disabled selected>Warga Negara</option>
+    <?php foreach ($bebas as $n) {?>
+    <option value="<?php echo $n ?>"><?php echo $n ?></option>
+    <?php } ?>
+</select>

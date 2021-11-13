@@ -1,0 +1,60 @@
+h1{
+  padding: 10px;
+  background: #1992b1;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.navtombol { background-color: #c0c0c0; 
+  padding: 15px 15px 15px 15px; 
+  text-align: center;
+  border-radius: 10px; 
+  border: 2px solid white;
+  width: 100%;
+  color: black;
+  margin-bottom: 5px;
+}
+.navtombol a{
+  text-decoration:  none;
+  color: white;
+
+}
+.navtombol:hover{
+  background-color: #0e667d;
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px #1992b1 rgba(0,0,0,0.5); 
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+}
+    
+.row.content {height: 450px}
+ /* Set gray background color and 100% height */
+ .sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+
+
+    }
+    
+
+footer {
+ background-color:rgba(0,0,0,0.9);
+ color: white;
+ padding: 15px;
+ height: 100%;
+ text-align: center;
+    }
+    
+
+ @media screen and (max-width: 767px) {
+ .sidenav {
+  height: auto;
+  padding: 15px;
+  }
+  .row.content {height:auto;} 
+  }
