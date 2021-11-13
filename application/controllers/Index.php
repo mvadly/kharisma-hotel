@@ -14,12 +14,13 @@ class Index extends CI_Controller{
     //     $this->load->view('global/index', $data);
     // }
     public function index(){
-       $data=array(
-        'unit'=>$this->model->GetGC(' limit 3'),
-        'fasilitas'=>$this->model->GetGF(' limit 3')
-        );
+    //    $data=array(
+    //     'unit'=>$this->model->GetGC(' limit 3'),
+    //     'fasilitas'=>$this->model->GetGF(' limit 3')
+    //     );
         
-        $this->load->view('umum/index',$data);
+    //     $this->load->view('umum/index',$data);
+    echo "tes tea nya";exit;
     }
     public function trackus(){
         
